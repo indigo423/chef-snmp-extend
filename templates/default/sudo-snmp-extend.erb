@@ -1,0 +1,2 @@
+# Allow snmp daemon to execute extended commands as root
+snmp ALL=NOPASSWD: <%= node['snmp']['extend_scripts_path'] %>/*.sh
