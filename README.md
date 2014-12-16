@@ -87,4 +87,4 @@ TODO: (optional) If this is a public cookbook, detail the process for contributi
 
 License and Authors
 -------------------
-Authors: TODO: ronny@opennms.org
+Authors: Ronny Trommer <ronny@opennms.org>
