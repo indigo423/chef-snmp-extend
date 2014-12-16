@@ -9,18 +9,7 @@ Requirements
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
 
-node.default['snmp']['community'] = 'nopublic'
-node.default['snmp']['full_systemview'] = 'true'
-node.default['snmp']['syslocationPhysical'] = 'Good cold server room'
-node.default['snmp']['syslocationVirtual'] = 'Cosy warm server'
-node.default['snmp']['syscontact'] = 'ronny.trommer@no42.org'
-node.default['snmp']['extend_scripts'] = {'apt-stats' => "'/usr/bin/sudo /opt/scripts/apt-stats.sh'"}
-node.default['snmp']['extend_scripts_path'] = '/opt/scripts'
-
-
-e.g.
 #### snmp-extend::default
 <table>
   <tr>
@@ -89,7 +78,6 @@ Contributing
 ------------
 TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
 
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
